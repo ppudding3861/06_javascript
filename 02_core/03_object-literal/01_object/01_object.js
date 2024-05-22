@@ -27,12 +27,10 @@ var student = {
         return `${this.name}(은)는 ${this.age}세입니다.`;
     }
 };
-getInfo : function(){
-    return `${this.name}(은)는 ${this.age}세입니다.`;
-},
+
 test : () => {
     return `${student.name}은 ${student.age} 입니다.`;
-}
+};
 console.log(typeof student);
 console.log(student);
 
