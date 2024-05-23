@@ -20,3 +20,9 @@ console.log(10/4);
 console.log(10/0);
 console.log(10/-10);
 console.log(1*'문자열');
+
+var integer = 20;
+var double = 2.2;
+var negative = -30;
+
+console.log(integer + double);
